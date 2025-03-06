@@ -125,7 +125,7 @@ static void** _PyGreenlet_API = NULL;
  */
 #     define PyGreenlet_GetParent                                    \
     (*(PyGreenlet* (*)(PyGreenlet*))                                 \
-     _PyGreenlet_API[PyGreenlet_GET_PARENT_NUM])
+    _PyGreenlet_API[PyGreenlet_GET_PARENT_NUM])
 
 /*
  * deprecated, undocumented alias.
